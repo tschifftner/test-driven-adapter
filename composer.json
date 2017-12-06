@@ -1,0 +1,19 @@
+{
+    "name": "ts/test-driven-adapter",
+    "description": "We write an adapter test driven",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tobias Schifftner",
+            "email": "ts@ambimax.de"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
